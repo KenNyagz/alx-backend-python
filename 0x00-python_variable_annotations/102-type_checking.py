@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''
-type annotation for function that takes in a tuple and an int and returns s list
+type annotation for func that takes in a tuple and an int and returns s list
 '''
 from typing import Tuple, List, Any
 
