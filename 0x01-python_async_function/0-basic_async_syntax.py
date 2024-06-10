@@ -9,7 +9,7 @@ from typing import Union
 
 
 async def wait_random(max_delay: int = 10) -> float:
-    ''' '''
+    '''Waits for a random delay btn 0 and max_delay sec and returns delay'''
     delay_time: float = random.uniform(0, max_delay)
     await asyncio.sleep(delay_time)
     return delay_time
