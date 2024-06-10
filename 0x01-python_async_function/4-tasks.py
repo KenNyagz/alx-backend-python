@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 '''
 async routine that spawns wait_random(that can a delay a max
 of max_delay seconds) n times and return the list of delays
